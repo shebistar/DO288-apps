@@ -62,15 +62,6 @@
   <artifactId>openshift-maven-plugin</artifactId>
   <version>1.7.0</version>
 
-  <configuration>
-     <images>
-        <!-- A single's image configuration -->
-        <image>
-          <build>
-          </build>
-        </image>
-     </images>
-  </configuration>
 
   <!-- Connect oc:resource, oc:build and oc:helm to lifecycle phases -->
   <executions>
