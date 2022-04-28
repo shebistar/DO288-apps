@@ -1,7 +1,7 @@
 FROM s2i-do288-go
 LABEL "io.k8s.display-name"="s2i-go-app" \
       "io.openshift.s2i.build.image"="s2i-do288-go" \
-      "io.openshift.s2i.build.source-location"="test/test-app"
+      "io.openshift.s2i.build.source-location"="test/test-app/"
 
 USER root
 # Copying in source code
