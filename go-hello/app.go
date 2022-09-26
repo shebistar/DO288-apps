@@ -21,7 +21,7 @@ func rootHandler(response http.ResponseWriter, request *http.Request) {
 
     switch *lang {
       case "en":
-        fmt.Fprintf(response, "Helloooooo %s!. Welcomeeeeeeeeeee!\n", request.URL.Path[1:])
+        fmt.Fprintf(response, "Helloooooo %s!. Welcomeeeeeeeeeee Quiero que esto esté en español, vamos a ver si se puede!\n", request.URL.Path[1:])
       case "es":
         fmt.Fprintf(response, "Hola %s!. Bienvenido!\n", request.URL.Path[1:])
       default:
